@@ -10,5 +10,6 @@ public class Main {
                 .filter(number -> number > 2)
                 .collect(Collectors.toSet());
         integers.forEach(System.out::println);
+        System.out.println("Hi");
     }
 }
